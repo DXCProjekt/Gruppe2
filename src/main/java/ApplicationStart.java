@@ -1,14 +1,18 @@
-import Classes.AttackList;
-import Classes.Pokemon;
+
+import edu.dxc.pokemon.Attacks;
+import edu.dxc.pokemon.Pokemons;
 
 public class ApplicationStart {
     public static void main(String[] args) {
 
         System.out.println("This should work");
 
-        AttackList al2 = new AttackList();
 
-        System.out.println(al2.giveAttack(0).getName());
+        Attacks test = Attacks.getInstance();
+
+        Pokemons pokemonlist = Pokemons.getInstance();
+
+        System.out.println(pokemonlist.giveRandomPokemon().getName());
 
 
     }
