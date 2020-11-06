@@ -25,8 +25,8 @@ public class BattleController {
         tvPokemonRight.setText("btnFightClicked!");
         barLeft.setProgress(0.7);
         barRight.setProgress(0.7);
-        ivPokemonFront.setImage(new Image("file:resources/pokemonBack.png"));
-        ivPokemonBack.setImage(new Image("file:resources/pokemonFront.png"));
+        ivPokemonFront.setImage(new Image("file:resources/scene/pokemonBack.png"));
+        ivPokemonBack.setImage(new Image("file:resources/scene/pokemonFront.png"));
     }
 
     public void btnBagClicked() {
@@ -36,8 +36,8 @@ public class BattleController {
         tvPokemonRight.setText("btnBagClicked!");
         barLeft.setProgress(0.5);
         barRight.setProgress(0.5);
-        ivPokemonFront.setImage(new Image("file:resources/pokemonFront.png"));
-        ivPokemonBack.setImage(new Image("file:resources/pokemonBack.png"));
+        ivPokemonFront.setImage(new Image("file:resources/scene/pokemonFront.png"));
+        ivPokemonBack.setImage(new Image("file:resources/scene/pokemonBack.png"));
     }
 
     public void btnPokemonClicked() {
@@ -47,8 +47,8 @@ public class BattleController {
         tvPokemonRight.setText("btnPokemonClicked!");
         barLeft.setProgress(0.3);
         barRight.setProgress(0.3);
-        ivPokemonFront.setImage(new Image("file:resources/pokemonBack.png"));
-        ivPokemonBack.setImage(new Image("file:resources/pokemonFront.png"));
+        ivPokemonFront.setImage(new Image("file:resources/scene/pokemonBack.png"));
+        ivPokemonBack.setImage(new Image("file:resources/scene/pokemonFront.png"));
     }
 
     public void btnRunClicked() {
@@ -58,8 +58,8 @@ public class BattleController {
         tvPokemonRight.setText("btnRunClicked!");
         barLeft.setProgress(0.1);
         barRight.setProgress(0.1);
-        ivPokemonFront.setImage(new Image("file:resources/pokemonFront.png"));
-        ivPokemonBack.setImage(new Image("file:resources/pokemonBack.png"));
+        ivPokemonFront.setImage(new Image("file:resources/scene/pokemonFront.png"));
+        ivPokemonBack.setImage(new Image("file:resources/scene/pokemonBack.png"));
     }
 
 
