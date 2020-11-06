@@ -8,13 +8,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de6e3945-14f9-4803-b26a-1b2fb9fde483" name="Default Changelist" comment="Cleanup von Beispieldateien">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/openjfx_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/javafx_swt.xml" beforeDir="false" />
+    <list default="true" id="de6e3945-14f9-4803-b26a-1b2fb9fde483" name="Default Changelist" comment="Anpassung der Oberfläche an kleinere abgeschnittene Sprites">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ApplicationStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApplicationStart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/dxc/pokemon/GuiStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/dxc/pokemon/GuiStart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/BattleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/BattleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/view/battleScene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/battleScene.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -219,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604590108024</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Anpassung der Oberfläche an kleinere abgeschnittene Sprites">
+      <created>1604652819147</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604652819147</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,7 +243,8 @@
     <MESSAGE value="New Pokemon Class just for testing the Github Connection plus Attack class" />
     <MESSAGE value="Erstellung der GUI für die Pokemon Kämpfe" />
     <MESSAGE value="Cleanup von Beispieldateien" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleanup von Beispieldateien" />
+    <MESSAGE value="Anpassung der Oberfläche an kleinere abgeschnittene Sprites" />
+    <option name="LAST_COMMIT_MESSAGE" value="Anpassung der Oberfläche an kleinere abgeschnittene Sprites" />
   </component>
   <component name="WindowStateProjectService">
     <state x="808" y="180" width="1089" height="905" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604602914319">
@@ -268,26 +272,26 @@
     </state>
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824/1920.0.2560.1400@0.0.1536.824" timestamp="1604476291648" />
     <state x="984" y="206" key="FileChooserDialogImpl/0.0.2752.1112@0.0.2752.1112" timestamp="1604603109409" />
-    <state width="2709" height="195" key="GridCell.Tab.0.bottom" timestamp="1604652605599">
+    <state width="1866" height="195" key="GridCell.Tab.0.bottom" timestamp="1604653939219">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604499092557" />
-    <state width="2709" height="195" key="GridCell.Tab.0.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1604652605599" />
-    <state width="2709" height="195" key="GridCell.Tab.0.center" timestamp="1604652605599">
+    <state width="1866" height="195" key="GridCell.Tab.0.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1604653939219" />
+    <state width="1866" height="195" key="GridCell.Tab.0.center" timestamp="1604653939219">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604499092557" />
-    <state width="2709" height="195" key="GridCell.Tab.0.center/0.0.2752.1112@0.0.2752.1112" timestamp="1604652605599" />
-    <state width="2709" height="195" key="GridCell.Tab.0.left" timestamp="1604652605599">
+    <state width="1866" height="195" key="GridCell.Tab.0.center/0.0.2752.1112@0.0.2752.1112" timestamp="1604653939219" />
+    <state width="1866" height="195" key="GridCell.Tab.0.left" timestamp="1604653939219">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604499092557" />
-    <state width="2709" height="195" key="GridCell.Tab.0.left/0.0.2752.1112@0.0.2752.1112" timestamp="1604652605599" />
-    <state width="2709" height="195" key="GridCell.Tab.0.right" timestamp="1604652605599">
+    <state width="1866" height="195" key="GridCell.Tab.0.left/0.0.2752.1112@0.0.2752.1112" timestamp="1604653939219" />
+    <state width="1866" height="195" key="GridCell.Tab.0.right" timestamp="1604653939219">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604499092557" />
-    <state width="2709" height="195" key="GridCell.Tab.0.right/0.0.2752.1112@0.0.2752.1112" timestamp="1604652605599" />
+    <state width="1866" height="195" key="GridCell.Tab.0.right/0.0.2752.1112@0.0.2752.1112" timestamp="1604653939219" />
     <state width="1842" height="374" key="GridCell.Tab.1.bottom" timestamp="1604606189774">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
@@ -308,11 +312,11 @@
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state x="858" y="156" key="SettingsEditor/0.0.2752.1112@0.0.2752.1112" timestamp="1604603118479" />
-    <state x="791" y="271" key="Vcs.Push.Dialog.v2" timestamp="1604590113311">
+    <state x="791" y="271" key="Vcs.Push.Dialog.v2" timestamp="1604652822292">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604499148535" />
-    <state x="791" y="271" key="Vcs.Push.Dialog.v2/0.0.2752.1112@0.0.2752.1112" timestamp="1604590113311" />
+    <state x="791" y="271" key="Vcs.Push.Dialog.v2/0.0.2752.1112@0.0.2752.1112" timestamp="1604652822292" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604499023680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

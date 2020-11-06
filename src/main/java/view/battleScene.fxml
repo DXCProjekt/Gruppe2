@@ -43,10 +43,10 @@
                   <Image url="@../../../../../window.png" />
                </image>
             </ImageView>
-            <Button fx:id="btnRun" layoutX="588.0" layoutY="324.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="Run" />
-            <Button fx:id="btnPokemon" layoutX="460.0" layoutY="324.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="Pokémon" />
-            <Button fx:id="btnBag" layoutX="588.0" layoutY="286.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="Bag" />
-            <Button fx:id="btnFight" layoutX="460.0" layoutY="286.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="Fight" />
+            <Button fx:id="btnRun" layoutX="588.0" layoutY="324.0" mnemonicParsing="false" onAction="#btnRunClicked" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="Run" />
+            <Button fx:id="btnPokemon" layoutX="460.0" layoutY="324.0" mnemonicParsing="false" onAction="#btnPokemonClicked" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="Pokémon" />
+            <Button fx:id="btnBag" layoutX="588.0" layoutY="286.0" mnemonicParsing="false" onAction="#btnBagClicked" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="Bag" />
+            <Button fx:id="btnFight" layoutX="460.0" layoutY="286.0" mnemonicParsing="false" onAction="#btnFightClicked" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="Fight" />
             <Label fx:id="tvFightText" layoutX="29.0" layoutY="294.0" prefHeight="54.0" prefWidth="293.0" text="fightText" textFill="#747474">
                <font>
                   <Font name="System Bold" size="12.0" />
