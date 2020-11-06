@@ -4,6 +4,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ProgressBar;
+import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
 public class BattleController {
@@ -22,6 +23,10 @@ public class BattleController {
         tvFightText.setText("btnFightClicked!");
         tvPokemonLeft.setText("btnFightClicked!");
         tvPokemonRight.setText("btnFightClicked!");
+        barLeft.setProgress(0.7);
+        barRight.setProgress(0.7);
+        ivPokemonFront.setImage(new Image("file:resources/pokemonBack.png"));
+        ivPokemonBack.setImage(new Image("file:resources/pokemonFront.png"));
     }
 
     public void btnBagClicked() {
@@ -29,6 +34,10 @@ public class BattleController {
         tvFightText.setText("btnBagClicked!");
         tvPokemonLeft.setText("btnBagClicked!");
         tvPokemonRight.setText("btnBagClicked!");
+        barLeft.setProgress(0.5);
+        barRight.setProgress(0.5);
+        ivPokemonFront.setImage(new Image("file:resources/pokemonFront.png"));
+        ivPokemonBack.setImage(new Image("file:resources/pokemonBack.png"));
     }
 
     public void btnPokemonClicked() {
@@ -36,6 +45,10 @@ public class BattleController {
         tvFightText.setText("btnPokemonClicked!");
         tvPokemonLeft.setText("btnPokemonClicked!");
         tvPokemonRight.setText("btnPokemonClicked!");
+        barLeft.setProgress(0.3);
+        barRight.setProgress(0.3);
+        ivPokemonFront.setImage(new Image("file:resources/pokemonBack.png"));
+        ivPokemonBack.setImage(new Image("file:resources/pokemonFront.png"));
     }
 
     public void btnRunClicked() {
@@ -43,6 +56,10 @@ public class BattleController {
         tvFightText.setText("btnRunClicked!");
         tvPokemonLeft.setText("btnRunClicked!");
         tvPokemonRight.setText("btnRunClicked!");
+        barLeft.setProgress(0.1);
+        barRight.setProgress(0.1);
+        ivPokemonFront.setImage(new Image("file:resources/pokemonFront.png"));
+        ivPokemonBack.setImage(new Image("file:resources/pokemonBack.png"));
     }
 
 
