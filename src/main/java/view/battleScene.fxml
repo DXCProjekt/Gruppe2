@@ -9,26 +9,21 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.BattleController">
+<VBox prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.BattleController">
   <children>
-    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="571.0" prefWidth="724.0" VBox.vgrow="ALWAYS">
          <children>
-            <ImageView fitHeight="405.0" fitWidth="786.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="372.0" fitWidth="786.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../../background.jpg" />
                </image>
             </ImageView>
-            <ImageView fitHeight="72.0" fitWidth="434.0" layoutX="14.0" layoutY="312.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../../../../window.png" />
-               </image>
-            </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="412.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="379.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../../grass.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="123.0" layoutY="249.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="123.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../../grass.png" />
                </image>
@@ -38,22 +33,33 @@
                   <Image url="@../../../../../bubbleLeft.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="61.0" fitWidth="222.0" layoutX="548.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="61.0" fitWidth="222.0" layoutX="486.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../../bubbleRight.png" />
                </image>
             </ImageView>
-            <Button fx:id="btnRun" layoutX="646.0" layoutY="351.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="Run" />
-            <Button fx:id="btnPokemon" layoutX="518.0" layoutY="351.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="Pokémon" />
-            <Button fx:id="btnBag" layoutX="646.0" layoutY="313.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="Bag" />
-            <Button fx:id="btnFight" layoutX="518.0" layoutY="313.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="Fight" />
-            <Label fx:id="tvFightText" layoutX="29.0" layoutY="321.0" prefHeight="54.0" prefWidth="293.0" text="fightText" textFill="#747474">
+            <ImageView fitHeight="72.0" fitWidth="434.0" layoutX="14.0" layoutY="285.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../window.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnRun" layoutX="588.0" layoutY="324.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="Run" />
+            <Button fx:id="btnPokemon" layoutX="460.0" layoutY="324.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="Pokémon" />
+            <Button fx:id="btnBag" layoutX="588.0" layoutY="286.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="Bag" />
+            <Button fx:id="btnFight" layoutX="460.0" layoutY="286.0" mnemonicParsing="false" onAction="#onButtonClick" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="Fight" />
+            <Label fx:id="tvFightText" layoutX="29.0" layoutY="294.0" prefHeight="54.0" prefWidth="293.0" text="fightText" textFill="#747474">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Label>
-            <ImageView fx:id="ivPokemonFront" fitHeight="150.0" fitWidth="150.0" layoutX="148.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fx:id="ivPokemonBack" fitHeight="150.0" fitWidth="150.0" layoutX="437.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="ivPokemonFront" fitHeight="96.0" fitWidth="119.0" layoutX="172.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../pokemonFront.png" />
+               </image></ImageView>
+            <ImageView fx:id="ivPokemonBack" fitHeight="96.0" fitWidth="66.0" layoutX="451.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../pokemonBack.png" />
+               </image></ImageView>
             <ImageView fx:id="ivPokemonAttack" fitHeight="96.0" fitWidth="175.0" layoutX="262.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true" />
             <ProgressBar fx:id="barLeft" layoutX="47.0" layoutY="45.0" prefHeight="12.0" prefWidth="156.0" progress="0.0" />
             <Label layoutX="26.0" layoutY="41.0" text="HP" textFill="#848484">
@@ -61,18 +67,18 @@
                   <Font name="System Bold" size="12.0" />
                </font>
             </Label>
-            <ProgressBar fx:id="barRight" layoutX="601.0" layoutY="46.0" prefHeight="12.0" prefWidth="156.0" progress="0.0" />
-            <Label layoutX="580.0" layoutY="42.0" text="HP" textFill="#848484">
+            <ProgressBar fx:id="barRight" layoutX="539.0" layoutY="48.0" prefHeight="12.0" prefWidth="156.0" progress="0.0" />
+            <Label layoutX="518.0" layoutY="44.0" text="HP" textFill="#848484">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Label>
-            <Label fx:id="tvPokemonLeft" layoutX="26.0" layoutY="22.0" prefHeight="20.0" prefWidth="175.0" text="Pikachu" textFill="#595959">
+            <Label fx:id="tvPokemonLeft" layoutX="26.0" layoutY="22.0" prefHeight="20.0" prefWidth="175.0" text="Taubsi" textFill="#595959">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
             </Label>
-            <Label fx:id="tvPokemonRight" layoutX="579.0" layoutY="22.0" prefHeight="20.0" prefWidth="175.0" text="Taubsi" textFill="#595959">
+            <Label fx:id="tvPokemonRight" layoutX="517.0" layoutY="24.0" prefHeight="20.0" prefWidth="175.0" text="Pikachu" textFill="#595959">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>

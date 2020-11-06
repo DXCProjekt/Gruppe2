@@ -16,7 +16,7 @@ public class GuiStart extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("../../../view/battleScene.fxml"));
         primaryStage.setTitle("Hello World");
-        primaryStage.setScene(new Scene(root, 784, 400));
+        primaryStage.setScene(new Scene(root, 720, 370));
         primaryStage.show();
     }
 }
