@@ -1,4 +1,4 @@
-package Classes;
+package edu.dxc.pokemon;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
