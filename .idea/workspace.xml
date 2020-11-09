@@ -8,9 +8,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de6e3945-14f9-4803-b26a-1b2fb9fde483" name="Default Changelist" comment="Added 4 Attack Buttons">
+    <list default="true" id="de6e3945-14f9-4803-b26a-1b2fb9fde483" name="Default Changelist" comment="Added 4 Attack Button Actions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/dxc/pokemon/pokeball.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/BattleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/BattleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/dxc/pokemon/GuiStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/dxc/pokemon/GuiStart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/view/battleScene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/battleScene.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,19 +97,19 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\maxim\Documents\Projekte\Gruppe2\resources\pokemon" />
-      <recent name="C:\Users\maxim\Documents\Projekte\Gruppe2\resources\scene" />
-      <recent name="C:\Users\maxim\Documents\Projekte\Gruppe2" />
-      <recent name="C:\Users\maxim\Downloads\Gruppe2\src\main\java\view" />
-      <recent name="C:\Users\maxim\Downloads\Gruppe2\src\main\resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\maxim\Downloads\Gruppe2\src\main\java\resources" />
+      <recent name="C:\Users\maxim\Downloads\Gruppe2\src\main\java\edu\dxc\pokemon" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="edu.dxc.pokemon" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\maxim\Downloads\Gruppe2\src\main\java\resources" />
-      <recent name="C:\Users\maxim\Downloads\Gruppe2\src\main\java\edu\dxc\pokemon" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/edu/dxc/pokemon" />
+      <recent name="C:\Users\maxim\Documents\Projekte\Gruppe2\resources\pokemon" />
+      <recent name="C:\Users\maxim\Documents\Projekte\Gruppe2\resources\scene" />
+      <recent name="C:\Users\maxim\Documents\Projekte\Gruppe2" />
+      <recent name="C:\Users\maxim\Downloads\Gruppe2\src\main\java\view" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.Gruppe2 [run]">
@@ -268,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604918352795</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added 4 Attack Button Actions">
+      <created>1604919123199</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1604919123199</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -296,7 +304,8 @@
     <MESSAGE value="Ansprechen aller Elemente funktioniert :)&#10;Änderung der Werte der Elemente zu Demozwecken in der BattleController.java" />
     <MESSAGE value="Added some pokemon sprites" />
     <MESSAGE value="Added 4 Attack Buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added 4 Attack Buttons" />
+    <MESSAGE value="Added 4 Attack Button Actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 4 Attack Button Actions" />
   </component>
   <component name="WindowStateProjectService">
     <state x="808" y="180" width="1089" height="905" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604602914319">
@@ -324,30 +333,34 @@
     </state>
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824/1920.0.2560.1400@0.0.1536.824" timestamp="1604476291648" />
     <state x="984" y="206" key="FileChooserDialogImpl/0.0.2752.1112@0.0.2752.1112" timestamp="1604603109409" />
-    <state width="2518" height="267" key="GridCell.Tab.0.bottom" timestamp="1604919065008">
-      <screen x="0" y="23" width="2560" height="1337" />
+    <state width="2518" height="266" key="GridCell.Tab.0.bottom" timestamp="1604927513647">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604499092557" />
     <state width="2036" height="194" key="GridCell.Tab.0.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1604666644649" />
     <state width="2518" height="267" key="GridCell.Tab.0.bottom/0.23.2560.1337/2560.23.2560.1417@0.23.2560.1337" timestamp="1604919065008" />
-    <state width="2518" height="267" key="GridCell.Tab.0.center" timestamp="1604919065007">
-      <screen x="0" y="23" width="2560" height="1337" />
+    <state width="2518" height="266" key="GridCell.Tab.0.bottom/0.23.2560.1417/2560.23.2560.1337@0.23.2560.1417" timestamp="1604927513647" />
+    <state width="2518" height="266" key="GridCell.Tab.0.center" timestamp="1604927513646">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604499092557" />
     <state width="2036" height="194" key="GridCell.Tab.0.center/0.0.2752.1112@0.0.2752.1112" timestamp="1604666644649" />
     <state width="2518" height="267" key="GridCell.Tab.0.center/0.23.2560.1337/2560.23.2560.1417@0.23.2560.1337" timestamp="1604919065007" />
-    <state width="2518" height="267" key="GridCell.Tab.0.left" timestamp="1604919065007">
-      <screen x="0" y="23" width="2560" height="1337" />
+    <state width="2518" height="266" key="GridCell.Tab.0.center/0.23.2560.1417/2560.23.2560.1337@0.23.2560.1417" timestamp="1604927513646" />
+    <state width="2518" height="266" key="GridCell.Tab.0.left" timestamp="1604927513646">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604499092557" />
     <state width="2036" height="194" key="GridCell.Tab.0.left/0.0.2752.1112@0.0.2752.1112" timestamp="1604666644649" />
     <state width="2518" height="267" key="GridCell.Tab.0.left/0.23.2560.1337/2560.23.2560.1417@0.23.2560.1337" timestamp="1604919065007" />
-    <state width="2518" height="267" key="GridCell.Tab.0.right" timestamp="1604919065008">
-      <screen x="0" y="23" width="2560" height="1337" />
+    <state width="2518" height="266" key="GridCell.Tab.0.left/0.23.2560.1417/2560.23.2560.1337@0.23.2560.1417" timestamp="1604927513646" />
+    <state width="2518" height="266" key="GridCell.Tab.0.right" timestamp="1604927513647">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604499092557" />
     <state width="2036" height="194" key="GridCell.Tab.0.right/0.0.2752.1112@0.0.2752.1112" timestamp="1604666644649" />
     <state width="2518" height="267" key="GridCell.Tab.0.right/0.23.2560.1337/2560.23.2560.1417@0.23.2560.1337" timestamp="1604919065008" />
+    <state width="2518" height="266" key="GridCell.Tab.0.right/0.23.2560.1417/2560.23.2560.1337@0.23.2560.1417" timestamp="1604927513647" />
     <state width="1842" height="374" key="GridCell.Tab.1.bottom" timestamp="1604606189774">
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
@@ -368,12 +381,12 @@
       <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state x="858" y="156" key="SettingsEditor/0.0.2752.1112@0.0.2752.1112" timestamp="1604661195672" />
-    <state x="736" y="349" key="Vcs.Push.Dialog.v2" timestamp="1604918356328">
+    <state x="736" y="349" key="Vcs.Push.Dialog.v2" timestamp="1604919124855">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604499148535" />
     <state x="791" y="271" key="Vcs.Push.Dialog.v2/0.0.2752.1112@0.0.2752.1112" timestamp="1604661109486" />
-    <state x="736" y="349" key="Vcs.Push.Dialog.v2/0.23.2560.1337/2560.23.2560.1417@0.23.2560.1337" timestamp="1604918356328" />
+    <state x="736" y="349" key="Vcs.Push.Dialog.v2/0.23.2560.1337/2560.23.2560.1417@0.23.2560.1337" timestamp="1604919124855" />
     <state x="1036" y="581" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604918361441">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
