@@ -4,25 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de6e3945-14f9-4803-b26a-1b2fb9fde483" name="Default Changelist" comment="initial commit (Gradle framework)" />
+    <list default="true" id="de6e3945-14f9-4803-b26a-1b2fb9fde483" name="Default Changelist" comment="Added some pokemon sprites">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,11 +34,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="GradleBase2" type="f1a62948:ProjectNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="GradleBase2" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -61,15 +44,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
-        <option value="Interface" />
         <option value="JavaFXApplication" />
       </list>
     </option>
-  </component>
-  <component name="Git.Pull.Settings">
-    <option name="BRANCH" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -82,54 +60,62 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../../Program Files/JetBrains/IntelliJ IDEA Community Edition 2020.2.3/plugins/maven/lib/maven3" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1johDgNOwS7Zj9pqMM9diBrWL70" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-15.0.1/lib/src.zip" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
-    <key name="ExtractSuperBase.RECENT_KEYS">
-      <recent name="Classes" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\simon\IdeaProjects\Gruppe2\resources" />
-      <recent name="C:\Users\simon\IdeaProjects\Gruppe2" />
-      <recent name="C:\Users\simon\IdeaProjects\Gruppe2\src\main\java\Images" />
+      <recent name="C:\Users\maxim\Documents\Projekte\Gruppe2\resources\pokemon" />
+      <recent name="C:\Users\maxim\Documents\Projekte\Gruppe2\resources\scene" />
+      <recent name="C:\Users\maxim\Documents\Projekte\Gruppe2" />
+      <recent name="C:\Users\maxim\Downloads\Gruppe2\src\main\java\view" />
+      <recent name="C:\Users\maxim\Downloads\Gruppe2\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.dxc.pokemon" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\maxim\Downloads\Gruppe2\src\main\java\resources" />
+      <recent name="C:\Users\maxim\Downloads\Gruppe2\src\main\java\edu\dxc\pokemon" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainMenu">
+  <component name="RunManager" selected="Gradle.Gruppe2 [run]">
     <configuration name="ApplicationStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-15" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="ApplicationStart" />
       <module name="GradleBase2.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Classes.MainMenu" />
+    <configuration name="GuiStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-15" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="edu.dxc.pokemon.GuiStart" />
       <module name="GradleBase2.main" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;S:\Java\javafx-sdk-15.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml,javafx.base" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Classes.*" />
+          <option name="PATTERN" value="edu.dxc.pokemon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,13 +123,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Gruppe2 [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.ApplicationStart" />
-      <item itemvalue="Application.MainMenu" />
+      <item itemvalue="Application.GuiStart" />
+      <item itemvalue="Gradle.Gruppe2 [run]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainMenu" />
+        <item itemvalue="Gradle.Gruppe2 [run]" />
+        <item itemvalue="Application.GuiStart" />
         <item itemvalue="Application.ApplicationStart" />
       </list>
     </recent_temporary>
@@ -164,21 +171,77 @@
       <option name="project" value="LOCAL" />
       <updated>1604476347919</updated>
     </task>
-    <task id="LOCAL-00002" summary="Added GUI for Main Menu.">
-      <created>1604910050403</created>
+    <task id="LOCAL-00002" summary="New Pokemon Class just for testing the Github Connection">
+      <created>1604498779029</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1604910050403</updated>
+      <updated>1604498779029</updated>
     </task>
-    <task id="LOCAL-00003" summary="Added GUI for Main Menu.">
-      <created>1604910098697</created>
+    <task id="LOCAL-00003" summary="New Pokemon Class just for testing the Github Connection">
+      <created>1604499114841</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1604910098697</updated>
+      <updated>1604499114841</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="New Pokemon Class just for testing the Github Connection plus Attack class">
+      <created>1604499142875</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604499142875</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Erstellung der GUI für die Pokemon Kämpfe">
+      <created>1604588934103</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604588934103</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Cleanup von Beispieldateien">
+      <created>1604590108024</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604590108024</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Anpassung der Oberfläche an kleinere abgeschnittene Sprites">
+      <created>1604652819147</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604652819147</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Funktionalität der Button und Beispieltexte im Terminal. Hinzufügen aller Komponenten der battle Scene.">
+      <created>1604654227736</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604654227736</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Änderungen am Resource Path, die Bilder sind nun im Projekt integriert">
+      <created>1604658284843</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604658284843</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Ansprechen aller Elemente funktioniert :)&#10;Änderung der Werte der Elemente zu Demozwecken in der BattleController.java">
+      <created>1604658840146</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604658840146</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added some pokemon sprites">
+      <created>1604661107670</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604661107670</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,94 +258,100 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit (Gradle framework)" />
-    <MESSAGE value="Added GUI for Main Menu." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added GUI for Main Menu." />
+    <MESSAGE value="New Pokemon Class just for testing the Github Connection" />
+    <MESSAGE value="New Pokemon Class just for testing the Github Connection plus Attack class" />
+    <MESSAGE value="Erstellung der GUI für die Pokemon Kämpfe" />
+    <MESSAGE value="Cleanup von Beispieldateien" />
+    <MESSAGE value="Anpassung der Oberfläche an kleinere abgeschnittene Sprites" />
+    <MESSAGE value="Funktionalität der Button und Beispieltexte im Terminal. Hinzufügen aller Komponenten der battle Scene." />
+    <MESSAGE value="Änderungen am Resource Path" />
+    <MESSAGE value="Änderungen am Resource Path, die Bilder sind nun im Projekt integriert" />
+    <MESSAGE value="Ansprechen aller Elemente funktioniert :)&#10;Änderung der Werte der Elemente zu Demozwecken in der BattleController.java" />
+    <MESSAGE value="Added some pokemon sprites" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some pokemon sprites" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604651235908">
+    <state x="808" y="180" width="1089" height="905" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604602914319">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state x="808" y="180" width="1089" height="905" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2752.1112@0.0.2752.1112" timestamp="1604602914319" />
+    <state x="1085" y="359" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1604572971794">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state x="1085" y="359" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.2752.1112@0.0.2752.1112" timestamp="1604572971794" />
+    <state x="1261" y="306" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604605134432">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state x="1261" y="306" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2752.1112@0.0.2752.1112" timestamp="1604605134432" />
+    <state x="1682" y="430" key="DetectedRootsChooserDialog" timestamp="1604573124423">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state x="1682" y="430" key="DetectedRootsChooserDialog/0.0.2752.1112@0.0.2752.1112" timestamp="1604573124423" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1604494226814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604651235908" />
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1604578188780">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604578188780" />
-    <state x="972" y="270" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1604584954683">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="972" y="270" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604584954683" />
-    <state x="743" y="414" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604501550483">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="743" y="414" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604501550483" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604573435372">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604573435372" />
-    <state x="778" y="449" key="DetectedRootsChooserDialog" timestamp="1604572377541">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="778" y="449" key="DetectedRootsChooserDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604572377541" />
-    <state x="686" y="193" key="FileChooserDialogImpl" timestamp="1604572375080">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604494226814" />
+    <state x="984" y="206" key="FileChooserDialogImpl" timestamp="1604603109409">
+      <screen x="0" y="0" width="2752" height="1112" />
     </state>
     <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824/1920.0.2560.1400@0.0.1536.824" timestamp="1604476291648" />
-    <state x="686" y="193" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604572375080" />
-    <state width="1877" height="189" key="GridCell.Tab.0.bottom" timestamp="1604672712999">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="984" y="206" key="FileChooserDialogImpl/0.0.2752.1112@0.0.2752.1112" timestamp="1604603109409" />
+    <state width="2036" height="194" key="GridCell.Tab.0.bottom" timestamp="1604666644649">
+      <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604669544272" />
-    <state width="1877" height="189" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604672712999" />
-    <state width="1877" height="189" key="GridCell.Tab.0.center" timestamp="1604672712999">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604499092557" />
+    <state width="2036" height="194" key="GridCell.Tab.0.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1604666644649" />
+    <state width="2036" height="194" key="GridCell.Tab.0.center" timestamp="1604666644649">
+      <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604669544272" />
-    <state width="1877" height="189" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604672712999" />
-    <state width="1877" height="189" key="GridCell.Tab.0.left" timestamp="1604672712999">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604499092557" />
+    <state width="2036" height="194" key="GridCell.Tab.0.center/0.0.2752.1112@0.0.2752.1112" timestamp="1604666644649" />
+    <state width="2036" height="194" key="GridCell.Tab.0.left" timestamp="1604666644649">
+      <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604669544272" />
-    <state width="1877" height="189" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604672712999" />
-    <state width="1877" height="189" key="GridCell.Tab.0.right" timestamp="1604672712999">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604499092557" />
+    <state width="2036" height="194" key="GridCell.Tab.0.left/0.0.2752.1112@0.0.2752.1112" timestamp="1604666644649" />
+    <state width="2036" height="194" key="GridCell.Tab.0.right" timestamp="1604666644649">
+      <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604669544272" />
-    <state width="1877" height="189" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1604672712999" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1604669544273">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604499092557" />
+    <state width="2036" height="194" key="GridCell.Tab.0.right/0.0.2752.1112@0.0.2752.1112" timestamp="1604666644649" />
+    <state width="1842" height="374" key="GridCell.Tab.1.bottom" timestamp="1604606189774">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state width="1842" height="374" key="GridCell.Tab.1.bottom/0.0.2752.1112@0.0.2752.1112" timestamp="1604606189774" />
+    <state width="1842" height="374" key="GridCell.Tab.1.center" timestamp="1604606189774">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state width="1842" height="374" key="GridCell.Tab.1.center/0.0.2752.1112@0.0.2752.1112" timestamp="1604606189774" />
+    <state width="1842" height="374" key="GridCell.Tab.1.left" timestamp="1604606189774">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state width="1842" height="374" key="GridCell.Tab.1.left/0.0.2752.1112@0.0.2752.1112" timestamp="1604606189774" />
+    <state width="1842" height="374" key="GridCell.Tab.1.right" timestamp="1604606189774">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state width="1842" height="374" key="GridCell.Tab.1.right/0.0.2752.1112@0.0.2752.1112" timestamp="1604606189774" />
+    <state x="858" y="156" key="SettingsEditor" timestamp="1604661195672">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state x="858" y="156" key="SettingsEditor/0.0.2752.1112@0.0.2752.1112" timestamp="1604661195672" />
+    <state x="791" y="271" key="Vcs.Push.Dialog.v2" timestamp="1604661109486">
+      <screen x="0" y="0" width="2752" height="1112" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604499148535" />
+    <state x="791" y="271" key="Vcs.Push.Dialog.v2/0.0.2752.1112@0.0.2752.1112" timestamp="1604661109486" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604499023680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604669544273" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1604669544272">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604499023680" />
+    <state x="1504" y="169" key="new project wizard" timestamp="1604587755171">
+      <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604669544272" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1604669544272">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="1504" y="169" key="new project wizard/0.0.2752.1112@0.0.2752.1112" timestamp="1604587755171" />
+    <state x="1543" y="249" width="672" height="678" key="search.everywhere.popup" timestamp="1604587301540">
+      <screen x="0" y="0" width="2752" height="1112" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604669544272" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1604669544272">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604669544272" />
-    <state x="622" y="134" width="1040" height="849" key="SettingsEditor" timestamp="1604650803360">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="622" y="134" width="1040" height="849" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604650803360" />
-    <state x="685" y="482" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604567442844">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="685" y="482" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604567442844" />
-    <state x="577" y="178" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604653952564">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="577" y="178" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604653952564" />
-    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1604587242913">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="667" y="119" width="585" height="801" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604587242913" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604652725376">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604652725376" />
+    <state x="1543" y="249" width="672" height="678" key="search.everywhere.popup/0.0.2752.1112@0.0.2752.1112" timestamp="1604587301540" />
   </component>
 </project>
