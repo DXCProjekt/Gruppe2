@@ -180,6 +180,8 @@ public class Pokemon {
         return currHp;
     }
 
+    //Test
+
     public void setCurrHp(int currHp) {
 
         if(currHp > this.maxHp){
