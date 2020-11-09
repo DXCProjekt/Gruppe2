@@ -11,7 +11,7 @@ import javafx.scene.image.ImageView;
 public class BattleController {
 
     @FXML
-    Button btnFight, btnBag, btnPokemon, btnRun;
+    Button btnFight, btnBag, btnPokemon, btnRun, btnAttack1, btnAttack2, btnAttack3, btnAttack4;
     @FXML
     Label tvFightText, tvPokemonLeft, tvPokemonRight;
     @FXML
