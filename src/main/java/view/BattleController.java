@@ -1,5 +1,6 @@
 package view;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -63,5 +64,19 @@ public class BattleController {
     }
 
 
+    public void btnAttack1(ActionEvent actionEvent) {
 
+    }
+
+    public void btnAttack2(ActionEvent actionEvent) {
+
+    }
+
+    public void btnAttack3(ActionEvent actionEvent) {
+
+    }
+
+    public void btnAttack4(ActionEvent actionEvent) {
+
+    }
 }

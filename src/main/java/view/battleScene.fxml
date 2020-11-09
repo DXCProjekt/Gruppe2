@@ -43,6 +43,8 @@
                   <Image url="@../../../../resources/scene/window.png" />
                </image>
             </ImageView>
+
+            <!-- Button Actions -->
             <Button fx:id="btnRun" layoutX="588.0" layoutY="324.0" mnemonicParsing="false" onAction="#btnRunClicked" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="Run" textFill="#747474">
                <font>
                   <Font name="System Bold" size="12.0" />
@@ -59,6 +61,25 @@
                <font>
                   <Font name="System Bold" size="12.0" />
                </font></Button>
+
+            <!-- Button Attacks -->
+            <Button fx:id="btnAttack1" layoutX="588.0" layoutY="324.0" mnemonicParsing="false" onAction="#btnAttack1" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="btnAttack1" textFill="#747474">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+            <Button fx:id="btnAttack2" layoutX="460.0" layoutY="324.0" mnemonicParsing="false" onAction="#btnAttack2" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="btnAttack2" textFill="#747474">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+            <Button fx:id="btnAttack3" layoutX="588.0" layoutY="286.0" mnemonicParsing="false" onAction="#btnAttack3" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="btnAttack3" textFill="#747474">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+            <Button fx:id="btnAttack4" layoutX="460.0" layoutY="286.0" mnemonicParsing="false" onAction="#btnAttack4" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="btnAttack4" textFill="#747474">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+
             <Label fx:id="tvFightText" layoutX="29.0" layoutY="294.0" prefHeight="54.0" prefWidth="293.0" text="fightText" textFill="#747474">
                <font>
                   <Font name="System Bold" size="12.0" />
