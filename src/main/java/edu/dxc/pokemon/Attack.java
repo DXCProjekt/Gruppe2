@@ -16,7 +16,6 @@ public class Attack {
 
     }
 
-    //Test
 
 
     public String getName() {

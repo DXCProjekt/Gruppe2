@@ -176,10 +176,23 @@ public class Pokemon {
     }
 
     public int getCurrHp() {
+
         return currHp;
     }
 
+    //Test
+
     public void setCurrHp(int currHp) {
+
+        if(currHp > this.maxHp){
+            this.currHp = this.maxHp;
+            return;
+        }
+        if(currHp < 0){
+            this.currHp = 0;
+            return;
+        }
+
         this.currHp = currHp;
     }
 
