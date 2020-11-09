@@ -15,7 +15,7 @@ public class MainMenu extends Application {
     public static void main(String[] args) {
         Application.launch(args);
     }
-
+//TEST
     @Override
     public void start(Stage stage) {
 
