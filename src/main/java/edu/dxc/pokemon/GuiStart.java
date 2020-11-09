@@ -17,8 +17,8 @@ public class GuiStart extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("../../../view/battleScene.fxml"));
-        primaryStage.setTitle("Pokémon");
-        // primaryStage.getIcons().add(new Image("file:pokeball.png"));
+        primaryStage.setTitle("Pokemon");
+        primaryStage.getIcons().add(new Image("file:src/main/java/edu/dxc/pokemon/pokeball.png"));
         primaryStage.setScene(new Scene(root, 720, 370));
         primaryStage.show();
     }
