@@ -1,19 +1,42 @@
 package edu.dxc.pokemon;
 
-public class Fight {
 
-    Pokemons pokemons = Pokemons.getInstance();
+public class Fight {
+    public Pokemons  pokemons = Pokemons.getInstance();
 
     public Pokemon myPokemon = pokemons.giveRandomPokemon();
     public Pokemon oppoPokemon = pokemons.giveRandomPokemon();
 
-    public AttackMove my;
-    public AttackMove oppoAttack;
+    public AttackMove myMove;
+    public AttackMove oppoMove;
+    public AttackMove firstMove;
+    public AttackMove secondMove;
 
-    public void startRound(Attack attack){
 
+    public boolean startRound(Attack myAttack){
+        myMove=myPokemon.calculateAttack(myAttack,oppoPokemon);
+        oppoMove=oppoPokemon.calculateRandomAttack(myPokemon);
 
+        if (myMove.getInitiative()>=oppoMove.getInitiative()){
+            firstMove=myMove;
+            secondMove=oppoMove;
+        }else{
+            firstMove=oppoMove;
+            secondMove=myMove;
+        }
 
+        Pokemon damagedPokemon = firstMove.getDamagedPokemon();
+        damagedPokemon.setCurrHp(damagedPokemon.getCurrHp()-firstMove.getDamage());
+        if (damagedPokemon.getCurrHp() <= 0) return false;
+
+        damagedPokemon = secondMove.getDamagedPokemon();
+        damagedPokemon.setCurrHp(damagedPokemon.getCurrHp()-secondMove.getDamage());
+        if (damagedPokemon.getCurrHp() <= 0) return false;
+
+        return true;
 
     }
+
+
+
 }
