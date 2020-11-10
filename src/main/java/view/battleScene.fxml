@@ -9,6 +9,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
+<?import javafx.scene.control.TextArea?>
 <VBox prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.BattleController">
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="571.0" prefWidth="724.0" VBox.vgrow="ALWAYS">
@@ -79,16 +80,16 @@
                <font>
                   <Font name="System Bold" size="12.0" />
                </font></Button>
-            <Button fx:id="btnBack" visible="false" layoutX="420.0" layoutY="286.0" mnemonicParsing="false" onAction="#btnback" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: FFFAE1; -fx-border-radius: 2;" text="X" textFill="#747474">
+            <Button fx:id="btnBack" visible="false" layoutX="420.0" layoutY="286.0" mnemonicParsing="false" onAction="#btnback" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: EE3A1f; -fx-border-radius: 2; -fx-text-fill: white;" text="X" textFill="#747474">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font></Button>
 
-            <Label fx:id="tvFightText" layoutX="29.0" layoutY="294.0" prefHeight="54.0" prefWidth="293.0" text="fightText" textFill="#747474">
+            <TextArea fx:id="tvFightText" layoutX="29.0" layoutY="289.0" prefHeight="62.0" prefWidth="293.0" text="Ich werde gewinnen! Denn ich glaube an das Herz der Karten LET IT RIP!!!" style="-fx-background-color: rgba(53,89,119,0);">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
-            </Label>
+            </TextArea>
             <ImageView fx:id="ivPokemonFront" fitHeight="96.0" fitWidth="119.0" layoutX="172.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../resources/scene/pokemonFront.png" />

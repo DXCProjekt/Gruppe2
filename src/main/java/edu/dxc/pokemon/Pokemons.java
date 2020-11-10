@@ -14,9 +14,9 @@ public class Pokemons {
 
     private Pokemons(){
 
-        pokemonList.add(new Pokemon("Glumanda", "Feuer", 150, 30, 10, 65, null, null, "Kratzer", "Glut","Feuerzahn", "Freuersturm"));
-        pokemonList.add(new Pokemon("Schiggy", "Wasser", 200,  20, 20, 43, null, null, "Kratzer", "Aquaknarre", "Aquawelle", "Hydropumpe"));
-        pokemonList.add(new Pokemon("Bisasam", "Pflanze", 250, 10,30, 45, null, null, "Tackle", "Rankenhieb", "Rasierblatt", "Solarstrahl"));
+        pokemonList.add(new Pokemon("Glumanda", "Feuer", 150, 30, 10, 65, "file:resources/pokemon/charmanderBack.png", "file:resources/pokemon/charmanderFront.png", "Kratzer", "Glut","Feuerzahn", "Feuersturm"));
+        pokemonList.add(new Pokemon("Schiggy", "Wasser", 200,  20, 20, 43, "file:resources/pokemon/squirtleBack.png", "file:resources/pokemon/squirtleFront.png", "Kratzer", "Aquaknarre", "Aquawelle", "Hydropumpe"));
+        pokemonList.add(new Pokemon("Bisasam", "Pflanze", 250, 10,30, 45, "file:resources/pokemon/bulbasaurBack.png", "file:resources/pokemon/bulbasaurFront.png", "Tackle", "Rankenhieb", "Rasierblatt", "Solarstrahl"));
 
     }
 

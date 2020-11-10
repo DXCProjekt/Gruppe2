@@ -3,12 +3,16 @@ package edu.dxc.pokemon;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.control.*;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
+
+import java.io.IOException;
 
 public class MainMenu extends Application {
 
@@ -84,6 +88,19 @@ public class MainMenu extends Application {
             @Override
             public void handle(ActionEvent event) {
 
+                Parent root = null;
+                try {
+                    root = FXMLLoader.load(getClass().getResource("../../../view/battleScene.fxml"));
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                stage.setTitle("Pokemon");
+                stage.getIcons().add(new Image("file:src/main/java/edu/dxc/pokemon/pokeball.png"));
+                stage.setScene(new Scene(root, 720, 370));
+                stage.show();
+
+                // BattleController.onStart();
+
                 System.out.println("NEUES SPIEL");
 
             }
@@ -120,5 +137,6 @@ public class MainMenu extends Application {
         stage.show();
 
     }
+
 
 }

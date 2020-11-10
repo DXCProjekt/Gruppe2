@@ -30,4 +30,4 @@ javafx {
     modules = [ 'javafx.controls', 'javafx.fxml' ]
 }
 
-mainClassName = 'edu.dxc.pokemon.GuiStart'
+mainClassName = 'edu.dxc.pokemon.MainMenu'

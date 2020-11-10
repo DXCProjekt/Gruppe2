@@ -38,8 +38,6 @@ public class Pokemon {
 
     }
 
-    //atk + Attack.atk - damagedPokemon.def
-
     public AttackMove calculateAttack(Attack attacke, Pokemon damagedPokemon) {
 
         int tempCrit = 0, tempTypeCrit = 0;
@@ -47,40 +45,40 @@ public class Pokemon {
 
         tempDamage = this.atk + attacke.getAtk() - damagedPokemon.getDef();
 
-        if (attacke.getTyp() != "Normal") {
-            switch (this.typ) {
+        if (!attacke.getTyp().equalsIgnoreCase("Normal")) {
+            switch (attacke.getTyp()) {
 
                 case "Feuer":
-                    if (damagedPokemon.getTyp() == "Pflanze") {
+                    if (damagedPokemon.getTyp().equalsIgnoreCase("Pflanze")) {
                         tempTypeCrit = 1;
-                        tempDamage = Integer.parseInt("" + (tempDamage * TYPCRIT));
+                        tempDamage = (int) (tempDamage * TYPCRIT);
                         break;
-                    } else if (damagedPokemon.getTyp() == "Wasser") {
+                    } else if (damagedPokemon.getTyp().equalsIgnoreCase("Wasser")) {
                         tempTypeCrit = -1;
-                        tempDamage = Integer.parseInt("" + (tempDamage * TYPFAIL));
+                        tempDamage = (int) (tempDamage * TYPFAIL);
                         break;
                     }
 
                 case "Wasser":
-                    if (damagedPokemon.getTyp() == "Feuer") {
+                    if (damagedPokemon.getTyp().equalsIgnoreCase("Feuer")) {
                         tempTypeCrit = 1;
-                        tempDamage = Integer.parseInt("" + (tempDamage * TYPCRIT));
+                        tempDamage = (int) (tempDamage * TYPCRIT);
                         break;
-                    } else if (damagedPokemon.getTyp() == "Pflanze") {
+                    } else if (damagedPokemon.getTyp().equalsIgnoreCase("Pflanze")) {
                         tempTypeCrit = -1;
-                        tempDamage = Integer.parseInt("" + (tempDamage * TYPFAIL));
+                        tempDamage = (int) (tempDamage * TYPFAIL);
                         break;
 
                     }
 
                 case "Pflanze":
-                    if (damagedPokemon.getTyp() == "Wasser") {
+                    if (damagedPokemon.getTyp().equalsIgnoreCase("Wasser")) {
                         tempTypeCrit = 1;
-                        tempDamage = Integer.parseInt("" + (tempDamage * TYPCRIT));
+                        tempDamage = (int) (tempDamage * TYPCRIT);
                         break;
-                    } else if (damagedPokemon.getTyp() == "Feuer") {
+                    } else if (damagedPokemon.getTyp().equalsIgnoreCase("Feuer")) {
                         tempTypeCrit = -1;
-                        tempDamage = Integer.parseInt("" + (tempDamage * TYPFAIL));
+                        tempDamage = (int) (tempDamage * TYPFAIL);
                         break;
                     }
 
@@ -88,13 +86,22 @@ public class Pokemon {
 
         }
 
-        if (new Random().nextInt(100) + 1 <= 10) {
+        if (new Random().nextInt(100) + 1 <= CRITCHANCE) {
             tempCrit = 1;
-            tempDamage = Integer.parseInt("" + (tempDamage * CRIT));
+            tempDamage = (int) (tempDamage * CRIT);
 
         }
 
-        AttackMove atkMove = new AttackMove(damagedPokemon, tempDamage, this.init, tempCrit, tempTypeCrit);
+        Random r = new Random();
+        double randomValue = 0 + (1 - 0) * r.nextDouble();
+        System.out.println(randomValue);
+
+        if (randomValue <= attacke.getAcc()) {
+            tempCrit -= 1;
+            tempDamage = 0;
+        }
+
+        AttackMove atkMove = new AttackMove(damagedPokemon, this, attacke.getName(), tempDamage, this.init, tempCrit, tempTypeCrit);
 
         return atkMove;
 

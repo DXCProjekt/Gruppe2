@@ -8,15 +8,11 @@ public class Attack {
     private String typ;
 
     public Attack(String name, int atk, double acc, String typ){
-
         this.name = name;
         this.atk = atk;
         this.acc = acc;
         this.typ = typ;
-
     }
-
-
 
     public String getName() {
         return name;
