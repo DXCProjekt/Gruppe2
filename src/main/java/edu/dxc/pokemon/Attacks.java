@@ -5,13 +5,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-/**
- * singleton
- */
 public class Attacks {
 
     private List<Attack> attackList = new ArrayList<Attack>();
-
 
     private static Attacks instance = null;
 

@@ -96,7 +96,7 @@ public class Pokemon {
         double randomValue = 0 + (1 - 0) * r.nextDouble();
         System.out.println(randomValue);
 
-        if (randomValue <= attacke.getAcc()) {
+        if (randomValue > attacke.getAcc()) {
             tempCrit -= 1;
             tempDamage = 0;
         }
