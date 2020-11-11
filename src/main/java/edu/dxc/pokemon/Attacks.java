@@ -3,7 +3,6 @@ package edu.dxc.pokemon;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 public class Attacks {
 
