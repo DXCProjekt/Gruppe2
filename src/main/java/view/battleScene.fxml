@@ -3,13 +3,13 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<?import javafx.scene.control.TextArea?>
 <VBox prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.BattleController">
   <children>
     <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="571.0" prefWidth="724.0" VBox.vgrow="ALWAYS">
@@ -50,11 +50,11 @@
                <font>
                   <Font name="System Bold" size="12.0" />
                </font></Button>
-            <Button fx:id="btnPokemon" layoutX="460.0" layoutY="324.0" mnemonicParsing="false" onAction="#btnPokemonClicked" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="Pokémon" textFill="#747474">
+            <Button fx:id="btnPokemon" disable="true" layoutX="460.0" layoutY="324.0" mnemonicParsing="false" onAction="#btnPokemonClicked" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="Pokémon" textFill="#747474">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font></Button>
-            <Button fx:id="btnBag" layoutX="588.0" layoutY="286.0" mnemonicParsing="false" onAction="#btnBagClicked" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="Bag" textFill="#747474">
+            <Button fx:id="btnBag" disable="true" layoutX="588.0" layoutY="286.0" mnemonicParsing="false" onAction="#btnBagClicked" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="Bag" textFill="#747474">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font></Button>
@@ -64,39 +64,39 @@
                </font></Button>
 
             <!-- Button Attacks -->
-            <Button fx:id="btnAttack4" visible="false" layoutX="588.0" layoutY="324.0" mnemonicParsing="false" onAction="#btnAttack4" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="btnAttack4" textFill="#747474">
+            <Button fx:id="btnAttack4" layoutX="588.0" layoutY="324.0" mnemonicParsing="false" onAction="#btnAttack4" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="btnAttack4" textFill="#747474" visible="false">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font></Button>
-            <Button fx:id="btnAttack3" visible="false" layoutX="460.0" layoutY="324.0" mnemonicParsing="false" onAction="#btnAttack3" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="btnAttack3" textFill="#747474">
+            <Button fx:id="btnAttack3" layoutX="460.0" layoutY="324.0" mnemonicParsing="false" onAction="#btnAttack3" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="btnAttack3" textFill="#747474" visible="false">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font></Button>
-            <Button fx:id="btnAttack2" visible="false" layoutX="588.0" layoutY="286.0" mnemonicParsing="false" onAction="#btnAttack2" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="btnAttack2" textFill="#747474">
+            <Button fx:id="btnAttack2" layoutX="588.0" layoutY="286.0" mnemonicParsing="false" onAction="#btnAttack2" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="btnAttack2" textFill="#747474" visible="false">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font></Button>
-            <Button fx:id="btnAttack1" visible="false" layoutX="460.0" layoutY="286.0" mnemonicParsing="false" onAction="#btnAttack1" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="btnAttack1" textFill="#747474">
+            <Button fx:id="btnAttack1" layoutX="460.0" layoutY="286.0" mnemonicParsing="false" onAction="#btnAttack1" prefHeight="30.0" prefWidth="119.0" style="-fx-background-color: FFFAE1; -fx-border-color: FBBE2A; -fx-border-width: 3px; -fx-border-radius: 2;" text="btnAttack1" textFill="#747474" visible="false">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font></Button>
-            <Button fx:id="btnBack" visible="false" layoutX="420.0" layoutY="286.0" mnemonicParsing="false" onAction="#btnback" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: EE3A1f; -fx-border-radius: 2; -fx-text-fill: white;" text="X" textFill="#747474">
+            <Button fx:id="btnBack" layoutX="420.0" layoutY="286.0" mnemonicParsing="false" onAction="#btnback" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: EE3A1f; -fx-border-radius: 2; -fx-text-fill: white;" text="X" textFill="#747474" visible="false">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font></Button>
 
-            <TextArea fx:id="tvFightText" layoutX="29.0" layoutY="289.0" prefHeight="62.0" prefWidth="293.0" text="Ich werde gewinnen! Denn ich glaube an das Herz der Karten LET IT RIP!!!" style="-fx-background-color: rgba(53,89,119,0);">
+            <TextArea fx:id="tvFightText" layoutX="22.0" layoutY="290.0" prefHeight="62.0" prefWidth="322.0" style="-fx-background-color: rgba(53,89,119,0);" text="Ich werde gewinnen! Denn ich glaube an das Herz der Karten LET IT RIP!!!">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </TextArea>
-            <ImageView fx:id="ivPokemonFront" fitHeight="96.0" fitWidth="119.0" layoutX="172.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="ivPokemonFront" fitHeight="100.0" fitWidth="120.0" layoutX="152.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../resources/scene/pokemonFront.png" />
+                  <Image url="@../../../../resources/pokemon/charmanderBack.png" />
                </image></ImageView>
-            <ImageView fx:id="ivPokemonBack" fitHeight="96.0" fitWidth="66.0" layoutX="451.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="ivPokemonBack" fitHeight="100.0" fitWidth="120.0" layoutX="426.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../resources/scene/pokemonBack.png" />
+                  <Image url="@../../../../resources/pokemon/charmanderFront.png" />
                </image></ImageView>
             <ImageView fx:id="ivPokemonAttack" fitHeight="96.0" fitWidth="175.0" layoutX="262.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true" />
             <ProgressBar fx:id="barLeft" layoutX="47.0" layoutY="45.0" prefHeight="12.0" prefWidth="156.0" progress="0.0" />
