@@ -4,7 +4,6 @@ import java.util.Random;
 
 public class Pokemon {
 
-
     private String name, typ, sprite, backSprite;
 
     private int maxHp, currHp, atk, def, init;
