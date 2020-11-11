@@ -1,7 +1,7 @@
 package view;
 
 import edu.dxc.pokemon.Fight;
-import javafx.beans.value.ChangeListener;
+import edu.dxc.pokemon.GuiMenu;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -98,8 +98,8 @@ public class BattleController {
     }
 
     public void btnRunClicked() {
-        System.out.println("btnRunClicked!");
-
+        GuiMenu.getInstance().switchToStart();
+        System.out.println("Test");
     }
 
     public void btnAttack1(ActionEvent actionEvent) {
