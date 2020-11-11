@@ -46,6 +46,13 @@ public class BattleController {
             tvFightText.setText("Verloren");
         }
 
+        btnRun.setVisible(true);
+        btnBack.setVisible(false);
+        btnAttack4.setVisible(false);
+        btnAttack3.setVisible(false);
+        btnAttack2.setVisible(false);
+        btnAttack1.setVisible(false);
+
         btnAttack1.setDisable(false);
         btnAttack2.setDisable(false);
         btnAttack3.setDisable(false);
@@ -115,8 +122,8 @@ public class BattleController {
 
     public void btnAttack2(ActionEvent actionEvent) {
         System.out.println("btnAttack2 Test");
-        tvFightText.setText(fight.battleText);
         boolean end = fight.startRound(fight.myPokemon.getAttack2());
+        tvFightText.setText(fight.battleText);
         updateHp();
 
         if (!end) {
@@ -126,8 +133,8 @@ public class BattleController {
 
     public void btnAttack3(ActionEvent actionEvent) {
         System.out.println("btnAttack3 Test");
-        tvFightText.setText(fight.battleText);
         boolean end = fight.startRound(fight.myPokemon.getAttack3());
+        tvFightText.setText(fight.battleText);
         updateHp();
 
         if (!end) {
@@ -137,8 +144,8 @@ public class BattleController {
 
     public void btnAttack4(ActionEvent actionEvent) {
         System.out.println("btnAttack4 Test");
-        tvFightText.setText(fight.battleText);
         boolean end = fight.startRound(fight.myPokemon.getAttack4());
+        tvFightText.setText(fight.battleText);
         updateHp();
 
         if (!end) {
