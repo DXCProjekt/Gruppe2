@@ -90,11 +90,11 @@
                   <Font name="System Bold" size="12.0" />
                </font>
             </TextArea>
-            <ImageView fx:id="ivPokemonFront" fitHeight="100.0" fitWidth="120.0" layoutX="152.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="ivPokemonFront" fitHeight="70.0" fitWidth="90.0" layoutX="178.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../resources/pokemon/charmanderBack.png" />
                </image></ImageView>
-            <ImageView fx:id="ivPokemonBack" fitHeight="100.0" fitWidth="120.0" layoutX="426.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="ivPokemonBack" fitHeight="80.0" fitWidth="90.0" layoutX="439.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../resources/pokemon/charmanderFront.png" />
                </image></ImageView>
